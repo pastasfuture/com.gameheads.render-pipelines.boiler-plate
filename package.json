@@ -1,0 +1,22 @@
+{
+    "name": "com.gameheads.render-pipelines.boiler-plate",
+    "version": "1.0.0",
+    "displayName": "Gameheads Boiler Plate Render Pipeline",
+    "description": "A minimal scriptable render pipeline example package meant for building off of.",
+    "unity": "2019.3",
+    "dependencies":
+    {
+        "com.unity.render-pipelines.core": "7.3.1"
+    },
+    "keywords":
+    [
+        "Gameheads",
+        "Boiler Plate",
+        "render pipeline",
+    ],
+    "author": 
+    {
+        "name": "Nicholas Brancaccio",
+        "url": "https://twitter.com/pastasfuture"
+    }
+}
