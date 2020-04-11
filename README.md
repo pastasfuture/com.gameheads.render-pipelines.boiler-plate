@@ -1,5 +1,8 @@
 # com.gameheads.render-pipelines.boiler-plate
 
+Built for Unity version 2019.3
+Last tested on 2019.3.7 unityhub://2019.3.7f1/6437fd74d35d
+
 In order to install this package in your project you'll want to:
 1) Clone this repository into [Your Unity Project Directory]/Packages/
 2) Open [Your Unity Project] in Unity. It will automatically download the package's dependancy (com.unity.render-pipelines.core) from github and install it.
