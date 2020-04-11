@@ -62,7 +62,7 @@ Shader "Hidden/Gameheads/PostProcessing"
         float4 color = SAMPLE_TEXTURE2D_LOD(_FrameBufferTexture, s_point_clamp_sampler, uv, 0);
 
         float colorAverage = (color.r + color.g + color.b) / 3.0;
-        color = lerp(colorAverage, color, _TonemapperSaturation);
+        color.rgb = lerp(colorAverage, color.rgb, _TonemapperSaturation);
 
         return color;
     }

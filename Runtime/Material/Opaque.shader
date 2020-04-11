@@ -114,7 +114,7 @@
 
                 // Blend final color with fog.
                 float4 fog = float4(_FogColor.rgb, i.fogAlpha);
-                color.rgb = lerp(color.rgb, fog, fog);
+                color.rgb = lerp(color.rgb, fog.rgb, fog.a);
 
                 return color;
             }
